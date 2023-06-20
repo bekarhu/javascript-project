@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Project of JS day 2 letsupgrade.in</title>
+</head>
+<body>
+
+	<!-- Hi letsupgrade.in team
+	I'm Shahnawaz your student and here is my JavaScript project (20-06-2023) -->
+
+
+	<p>Here is JS project</p>
+
+	<script>
+		function calculateArea(length, width) {
+			var area = length * width;
+			return area;
+		}
+
+		var length = 10;
+		var width = 20;
+		var rectangleArea = calculateArea(length, width);
+		document.write("Length x Width = " + rectangleArea);
+
+	</script>
+
+</body>
+</html>
